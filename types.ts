@@ -1,8 +1,9 @@
-
 export enum Role {
   USER = 'user',
   MODEL = 'model'
 }
+
+export type ThemeType = 'light' | 'dark' | 'ocean' | 'sunset' | 'forest';
 
 export interface Attachment {
   name: string;

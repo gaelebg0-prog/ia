@@ -47,7 +47,8 @@ export const generateGeminiResponse = async (
   ocrMode: boolean = false,
   objectDetectionMode: boolean = false
 ): Promise<string> => {
-  const model = 'gemini-3-flash-preview';
+  // Use gemini-3-pro-preview for complex multimodal/reasoning tasks as per guidelines
+  const model = 'gemini-3-pro-preview';
   
   // 1. Prepare conversation history
   const contents: Content[] = history.map(formatMessageToContent);

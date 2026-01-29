@@ -1,0 +1,8 @@
+{
+  "name": "Gemini AI Assistant Pro",
+  "description": "Un assistant IA gratuit et puissant capable d'analyser vos textes, images et documents avec précision grâce à la technologie Google Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
